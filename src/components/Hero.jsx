@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <>
             <div
-                className=" p-2 gap-3   flex items-end justify-between lg:px-20  relative h-[700px] bg-cover bg-center overflow-hidden"
+                className=" p-7 gap-3   flex items-end justify-between lg:px-20  relative h-[700px] bg-cover bg-center overflow-hidden"
             >
                 <div
                     className="absolute inset-0 bg-no-repeat bg-center mb-20"
