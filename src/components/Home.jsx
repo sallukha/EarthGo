@@ -5,7 +5,7 @@ import Fog from "../assets/images/fog.png";
 const Home = () => {
   return (
     <> 
-      <div className="flex flex-col pt-16   md:flex-row justify-center items-center p-6 md:p-12 lg:p-16 gap-3 md:gap-5">
+      <div className="flex pt-12 md:flex-row justify-center items-center p-6 md:p-12 lg:p-16 gap-3 md:gap-5">
         
         <div className="w-32 md:w-48 lg:w-64">
           <img src={Fog} alt="Fog" className="w-full" />
@@ -23,7 +23,7 @@ const Home = () => {
           🌍 Explore breathtaking{" "}
           <span className="text-green-600">destinations with us.</span>
         </h1>
-        <button className="mt-5 border border-black px-4 py-2 text-base md:text-lg lg:text-xl hover:bg-gray-100 transition">
+        <button className="mt-5 border border-black px-4 py-2 text-base md:text-lg lg:text-xl hover:bg-gray-100 transition rounded-2xl">
           🚀 Start Your Journey – Download Now!
         </button>
       </div>
