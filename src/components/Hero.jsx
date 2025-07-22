@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <>
             <div
-                className="flex items-end justify-between lg:px-20  relative h-[700px] bg-cover bg-center overflow-hidden"
+                className=" p-2 gap-3   flex items-end justify-between lg:px-20  relative h-[700px] bg-cover bg-center overflow-hidden"
             >
                 <div
                     className="absolute inset-0 bg-no-repeat bg-center mb-20"
@@ -26,10 +26,10 @@ const Hero = () => {
                         top: "-15%",
                     }}
                 ></div>
-                <div className="flex flex-col gap-4  text-center lg:text-left pb-12">
+                <div className="flex flex-col gap-4  text-center lg:text-left pb-12 mt-3">
                     <div className="mt-44 ">
                         <h1 className="text-3xl lg:text-7xl ">We are connecting</h1>
-                        <h1 className="bg-green-300 text-2xl lg:text-5xl p-2 text-white mt-10 font-bold">
+                        <h1 className="bg-green-300 pt-5 text-2xl lg:text-5xl p-2 text-white mt-10 font-bold">
                             Travelers across Globe
                         </h1>
                     </div>
@@ -37,7 +37,7 @@ const Hero = () => {
                         <img src={boy} alt="boy" className="" />
                     </div>
                 </div>
-                <div className="absolute top-0 right-0">
+                <div className="absolute top-0 right-0 ml-7">
                     <img src={mount} alt="mountain" className="w-full max-w-md" />
                 </div>
             </div>

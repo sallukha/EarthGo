@@ -6,7 +6,7 @@ import { CiYoutube } from "react-icons/ci";
 import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
     return (
-        <div className=' p-7   flex flex-col md:flex-row justify-between w-full bg-white p-6 md:p-16 items-center text-center md:text-left '>
+        <div className='   flex flex-col md:flex-row justify-between w-full bg-white p-9 md:p-16 items-center text-center md:text-left '>
             <div>
                 <img src={logo} alt="Earth Logo" className="w-20 md:w-24" />
             </div>
