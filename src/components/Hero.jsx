@@ -20,13 +20,12 @@ const Hero = () => {
                         transform: "rotate(10deg)",
                         transformOrigin: "center",
                         overflow: "visible",
-                        width: "120%", // Expanding the container
-                        height: "120%", // Expanding the container
-                        left: "-10%", // Centering adjustments after expansion
+                        width: "120%", 
+                        height: "120%", 
+                        left: "-10%", 
                         top: "-15%",
                     }}
                 ></div>
-                {/* Left Side (Aligned to Bottom) */}
                 <div className="flex flex-col gap-4  text-center lg:text-left pb-12">
                     <div className="mt-44 ">
                         <h1 className="text-3xl lg:text-7xl ">We are connecting</h1>

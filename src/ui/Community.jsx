@@ -14,19 +14,16 @@ const Community = () => {
  
             <div className="relative w-full h-[600px] flex justify-center items-center overflow-visible py-7">
                 <div className="relative w-full h-[500px] flex justify-center items-center overflow-hidden py-7">
-
-                    {/* Background Dotted Image */}
                     <div
                         className="absolute w-[120%] h-[120%] bg-no-repeat bg-center"
                         style={{
                             backgroundImage: `url(${dot})`,
-                            backgroundSize: "30%", // Ensures the full image is visible
+                            backgroundSize: "30%",  
                             backgroundPosition: "center",
-                            transform: "rotate(10deg) translateY(10%)", // Rotate and shift to avoid cutting
+                            transform: "rotate(10deg) translateY(10%)", 
                             transformOrigin: "center",
                         }}
                     ></div>
-                    {/* Left-Side Content */}
                     <div className="absolute left-0 top-[40%] -translate-y-1/2 flex f  gap-4 pl-10 items-center ml-60 ">
                         <h1 className="text-2xl font-semibold">Connect</h1>
                         <img src={man5} alt="Traveler" className="max-w-[300px] md:max-w-[400px] w-full h-auto" />

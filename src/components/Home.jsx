@@ -29,11 +29,9 @@ const Home = () => {
         </div>
       </div>
       <div className="flex justify-end gap-4 text-gray-600 p-4">
-  <CiSearch className="text-xl cursor-pointer" />
-  <IoIosNotifications className="text-xl cursor-pointer" />
-</div>
-
-
+        <CiSearch className="text-xl cursor-pointer" />
+        <IoIosNotifications className="text-xl cursor-pointer" />
+      </div>
     </>
   );
 };
