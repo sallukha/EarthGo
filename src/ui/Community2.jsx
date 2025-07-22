@@ -4,8 +4,8 @@ import man9 from "../assets/images/man9.png"
 import man8 from "../assets/images/man8.png"
 const Community2 = () => {
     return (
-        <div className="flex flex-col lg:flex-row p-16 lg:p-24 justify-between items-center ">
-            <div className="flex flex-col text-center lg:text-left">
+        <div className="flex flex-col lg:flex-row mt-2  p-12 lg:p-24 justify-between items-center ">
+            <div className="flex flex-col text-center lg:text-left p-12">
                 <h1 className='text-3 md:text-6xl'>Join the </h1>
                 <h1 className='py-4 text-5xl lg:text-7xl'> <span className='bg-green-400 p-1'>EarthGo</span>Community</h1>
                 <h1 className='font-light my-6'>Join a vibrant community of travelers
