@@ -1,5 +1,6 @@
 import React from "react";
 import { Places } from "../json/jsonData";
+import { ArrowBigRight } from "lucide-react";
 const PlacesFetch = () => {
     return (
         <div className="p-4 md:p-8">
@@ -12,9 +13,12 @@ const PlacesFetch = () => {
                         Book your budget-friendly trips and travel without limits
                     </h2>
                 </div>
-                <button className="bg-[#68C65A] text-white px-6 py-3 rounded-lg hover:bg-green-600 transition duration-300">
-                    See All
-                </button>
+                <div className="flex items-center gap-2">
+                    <button className="text-black px-6 py-3 rounded-lg border border-gray-300 hover:bg-gray-100 transition duration-300">
+                        See All
+                    </button>
+                    <ArrowBigRight className="w-6 h-6 text-black" />
+                </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">
                 {Places.map((item, index) => (
