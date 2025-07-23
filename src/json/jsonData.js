@@ -1,7 +1,7 @@
 import manali from "../assets/images/manali.png";
 import goa from "../assets/images/goa.png";
-import kasmir from "../assets/images/kasmir.png";
-import safari from "../assets/images/safari.png";
+import mans2 from "../assets/images/mans2.png";
+import traverl from  "../assets/images/traverl.png"
 
 export const Places = [
     {
@@ -17,11 +17,11 @@ export const Places = [
     {
         place: "Kashmir",
         price: "Starting from INR 5999",
-        image: kasmir,
+        image: mans2,
     },
     {
         place: "Safari",
         price: "Starting from INR 5999",
-        image: safari,
+        image: traverl,
     },
 ];

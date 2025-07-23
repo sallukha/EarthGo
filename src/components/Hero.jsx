@@ -1,23 +1,48 @@
 import React from 'react';
- import trav from "../assets/images/tarv.png"
- import trav2 from "../assets/images/traverl.png"
+import trav from "../assets/images/tarv.png"
+import trav2 from "../assets/images/traverl.png"
+import mans from "../assets/images/mans.png"
+import mans2 from "../assets/images/mans1.png"
+import mans3 from "../assets/images/mans2.png"
+import mans4 from "../assets/images/mans3.png"
 const Hero = () => {
-    return (
-        <>
-          <div className="flex justify-center items-center">
-            <img src={trav} alt="" />
+  const manImages = [mans, mans2, mans3, mans4];  
+  return (
+    <>
+      <div className="flex justify-center items-center">
+        <img src={trav} alt="" />
+      </div>
+      <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-28">
+     
+        <div className="text-center md:text-left space-y-3">
+          <h1 className="text-3xl md:text-6xl font-bold">Explore and</h1>
+          <h2 className="text-xl md:text-4xl font-semibold">
+            Find Adventure Trips
+          </h2>
+          <p className="text-gray-600 text-base md:text-lg">
+            Discover, Connect, and Experience with <span className="font-bold">EarthGo!</span>
+          </p>
+        </div>
+        <div className="flex flex-col items-center gap-4">
+          <img
+            src={trav2}
+            alt="Traveler"
+            className="w-44 md:w-full rounded-lg shadow-lg"
+          />
+          <div className="grid grid-cols-2 gap-4">
+            {manImages.map((img, index) => (
+              <img
+                key={index}
+                src={img}
+                alt={`Man ${index + 1}`}
+                className="w-28 md:w-32 rounded-md shadow-md  transform transition duration-500 ease-in-out hover:scale-110 *:
+                 "
+              />
+            ))}
           </div>
-          <div className="flex flex-col md:flex-row  justify-center items-center gap-44">
-                <div className="div">
-                <h1 className='text-xl md:text-6xl'>Explore and</h1>
-                <h1>Find Adventure Trips</h1>
-                 <h1>Discover, Connect, and Experience with EarthGo!</h1>
-                </div>
-                <div className="div">
-                    <img src={trav2} alt="" />
-                </div>
-          </div>
-        </>
-    );
+        </div>
+      </div>
+    </>
+  );
 };
 export default Hero;

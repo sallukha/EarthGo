@@ -28,7 +28,6 @@ const Community = () => {
                         <h1 className="text-2xl font-semibold">Connect</h1>
                         <img src={man5} alt="Traveler" className="max-w-[300px] md:max-w-[400px] w-full h-auto" />
                         <div className="flex flex-col">
-                            
                             <img src={man6} alt="" />
                         </div>
                     </div>
