@@ -37,8 +37,10 @@ const AiPlaner = () => {
                     </button>
                 </div>
             </form>
-            <h1 className='text-gray-500 mt-24'>© 2024. All Rights Reserved.
-                Terms & Condition</h1>
+            <h1 className="text-center text-sm md:text-base text-gray-500 mt-12 md:mt-24 px-4">
+                © 2024. All Rights Reserved. <span className="underline cursor-pointer">Terms & Conditions</span>
+            </h1>
+
         </div>
     );
 };
