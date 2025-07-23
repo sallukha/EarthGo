@@ -1,7 +1,5 @@
  import React from "react";
-import logo from "../assets/images/holograph.png";
 import Fog from "../assets/images/fog.png";
-
 const Home = () => {
   return (
     <> 
