@@ -4,9 +4,10 @@ import Home from '../components/Home'
 import Hero from '../components/Hero'
  import Community from '../ui/Community'
  import Community2 from '../ui/Community2'
- import AiPlaner from '../ui/AiPlaner'
+  import Earth from '../ui/Earth'
  import PlacesFetch from "../ui/PlacesFetch"
-import Footer from '../components/Footer'
+// import Footer from '../components/Footer'
+import AiPlaner from '../ui/AiPlaner'
 const Routes = () => {
   return (
     <div>
@@ -16,8 +17,9 @@ const Routes = () => {
       <PlacesFetch />
       <Community />
       <Community2 />
-      <AiPlaner />
-      <Footer/>
+      <Earth/>
+      <AiPlaner/>
+      {/* <Footer/> */}
     </div>
   )
 }

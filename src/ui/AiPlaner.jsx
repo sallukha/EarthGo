@@ -1,28 +1,44 @@
-import React from 'react'
-import { IoIosNotifications } from "react-icons/io";
+import React from 'react';
 const AiPlaner = () => {
     return (
-        <div className='w-full bg-blue-300 h-full flex flex-col items-center py-10 mt-14'>
-            <div className="flex justify-between items-center w-[90%] md:w-[50%] mb-5">
-                <h1 className="text-white text-lg font-semibold">Get Notification on Email</h1>
-                <div className="rounded-full bg-white  p-1">
-                    <IoIosNotifications className=" text-2xl" />
+        <div className="flex flex-col items-center justify-center min-h-screen  px-4">
+            <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-2">
+                AI Planner
+            </h1>
+            <p className="text-gray-500 mb-8 text-center">Coming Soon</p>
+            <form className="w-full max-w-md p-6 rounded-lg shadow">
+                <div className="mb-4">
+                    <input
+                        type="text"
+                        placeholder="Name"
+                        className="w-full px-4 py-3 border border-gray-400 rounded focus:outline-none focus:ring-2 focus:ring-gray-600"
+                    />
                 </div>
-            </div>
-            <div className="flex flex-col w-[90%] md:w-[50%] space-y-4">
-                <input type="text" placeholder="Name"
-                    className="p-3 border rounded-md bg-white placeholder:font-bold" />
-                <input type="email" placeholder="Email" className="p-3 border rounded-md bg-white font-bold " />
-                <input type="text" placeholder="Message" className="p-3 border rounded-md h-[100px] bg-white font-bold" />
+                <div className="mb-4">
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        className="w-full px-4 py-3 border  border-gray-400  rounded focus:outline-none focus:ring-2  focus:ring-gray-600"
+                    />
+                </div>
+                <div className="mb-6">
+                    <textarea
+                        placeholder="Message"
+                        rows="4"
+                        className="w-full px-4 py-3 border border-gray rounded focus:outline-none focus:ring-2  focus:ring-gray-600"
+                    ></textarea>
+                </div>
                 <div className="flex justify-end">
-                    <button className="bg-white px-6 py-2 text-black font-medium rounded-md shadow-md hover:bg-gray-200">
+                    <button
+                        type="submit"
+                        className="py-3 px-6 p-3 bg-black text-white rounded hover:bg-gray-800 transition-colors font-bold"
+                    >
                         Submit
                     </button>
                 </div>
-            </div>
 
+            </form>
         </div>
-    )
-}
-
+    );
+};
 export default AiPlaner;

@@ -14,9 +14,8 @@ const Hero = () => {
         <img src={trav} alt="" />
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-28">
-     
-        <div className="text-center md:text-left space-y-3">
-          <h1 className="text-3xl md:text-6xl font-bold">Explore and</h1>
+        <div className="text-center md:text-left space-y-3 mt-5">
+          <h1 className="text-3xl md:text-6xl font-bold">Explore  <span className="text-green-300">and</span></h1>
           <h2 className="text-xl md:text-4xl font-semibold">
             Find Adventure Trips
           </h2>
