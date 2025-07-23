@@ -1,11 +1,11 @@
-import manali from "../assets/images/manali.png";
+import manali from "../assets/images/mananli.png";
 import goa from "../assets/images/goa.png";
 import mans2 from "../assets/images/mans2.png";
 import traverl from  "../assets/images/traverl.png"
 
 export const Places = [
     {
-        place: "Manali",
+        place: "manali",
         price: "Starting from INR 5999",
         image: manali,
     },

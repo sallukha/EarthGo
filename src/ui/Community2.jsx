@@ -1,31 +1,38 @@
-import React from 'react'
-import man7 from "../assets/images/man7.png"
-import man9 from "../assets/images/man9.png"
-import man8 from "../assets/images/man8.png"
+ import React from 'react';
+import man7 from "../assets/images/man7.png";
+import man9 from "../assets/images/man9.png";
+import man8 from "../assets/images/man8.png";
+import Button from "../ui/Button"
 const Community2 = () => {
     return (
-        <div className="flex flex-col lg:flex-row mt-2  p-12 lg:p-24 justify-between items-center ">
-            <div className="flex flex-col text-center lg:text-left p-12">
-                <h1 className='text-3 md:text-6xl'>Join the </h1>
-                <h1 className='py-4 text-5xl lg:text-7xl'> <span className='bg-green-400 p-1'>EarthGo</span>Community</h1>
-                <h1 className='font-light my-6'>Join a vibrant community of travelers
-                    connect, share, and explore the world together</h1>
-                <button className="mt-10 lg:mt-24 w-full lg:w-[40%] py-3 border border-black  text-lg font-medium hover:bg-gray-100">
-                    Download Now
-                </button>
+        <div className="flex flex-col lg:flex-row mt-4 p-6 lg:p-24 justify-between items-center gap-10">
+            <div className="flex flex-col text-center lg:text-left p-4 lg:p-12">
+                <h1 className='text-3xl md:text-6xl font-bold'>
+                    Join the <span className='bg-blue-300 text-white px-2 py-1 rounded'>EarthGo</span> Community!
+                </h1>
+                <p className='font-light my-4 text-gray-700 text-lg md:text-xl'>
+                    Connect with a vibrant community of travelers, share adventures, and explore the world together!
+                </p>
             </div>
-            <div className="  relative  flex  gap-3 p-7">
-                <div className="div">
-                    <img src={man7} alt="" />
-                </div>
-                <div className="py-16">
-                    <img src={man8} alt="" />
-                </div>
-                <div className="absolute py-46 px-18">
-                    <img src={man9} alt="" />
-                </div>
+            <div className="relative grid grid-cols-2 gap-4 lg:gap-8">
+                <img
+                    src={man7}
+                    alt="Traveler 1"
+                    className="rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-500 mr-44"
+                />
+                <img
+                    src={man8}
+                    alt="Traveler 2"
+                    className="rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-500 ml-7 mt-24"
+                />
+                <img
+                    src={man9}
+                    alt="Traveler 3"
+                    className="rounded-xl shadow-lg col-span-2 transform hover:scale-105 transition-transform duration-500 ml-24" 
+                />
             </div>
         </div>
-    )
-}
-export default Community2
+    );
+};
+
+export default Community2;

@@ -5,6 +5,7 @@ import mans from "../assets/images/mans.png"
 import mans2 from "../assets/images/mans1.png"
 import mans3 from "../assets/images/mans2.png"
 import mans4 from "../assets/images/mans3.png"
+import Button from '../ui/Button';
 const Hero = () => {
   const manImages = [mans, mans2, mans3, mans4];  
   return (
@@ -22,6 +23,7 @@ const Hero = () => {
           <p className="text-gray-600 text-base md:text-lg">
             Discover, Connect, and Experience with <span className="font-bold">EarthGo!</span>
           </p>
+          <Button/>
         </div>
         <div className="flex flex-col items-center gap-4">
           <img
