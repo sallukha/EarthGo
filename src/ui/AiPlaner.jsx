@@ -41,6 +41,7 @@ const AiPlaner = () => {
                 © 2024. All Rights Reserved. <span className="underline cursor-pointer">Terms & Conditions</span>
             </h1>
 
+
         </div>
     );
 };
