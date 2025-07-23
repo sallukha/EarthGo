@@ -36,8 +36,9 @@ const AiPlaner = () => {
                         Submit
                     </button>
                 </div>
-
             </form>
+            <h1 className='text-gray-500 mt-24'>© 2024. All Rights Reserved.
+                Terms & Condition</h1>
         </div>
     );
 };

@@ -16,7 +16,7 @@ const Community = () => {
 
             <div className="flex flex-col md:flex-row justify-center items-center gap-7 mt-5 ">
                 <div className="div">
-                    <img src={travler} alt="" className='w-44  shadow-white' />
+                    <img src={travler} alt="" className='w-80  shadow-white' />
                     <h1 className='  flex justify-center items-center text-xl md:text-3xl font-bold text-blue-600'>Connect</h1>
                 </div>
                 <div className="div">
