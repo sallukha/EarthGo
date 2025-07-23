@@ -28,7 +28,7 @@ const Community2 = () => {
                 <img
                     src={man9}
                     alt="Traveler 3"
-                    className="rounded-xl shadow-lg col-span-2 transform hover:scale-105 transition-transform duration-500 ml-24" 
+                    className="rounded-xl shadow-lg col-span-2 transform hover:scale-105 transition-transform duration-500  md:ml-24" 
                 />
             </div>
         </div>
