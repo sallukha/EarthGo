@@ -8,9 +8,9 @@ const Community2 = () => {
         <div className="flex flex-col lg:flex-row mt-4 p-6 lg:p-24 justify-between items-center gap-10">
             <div className="flex flex-col text-center lg:text-left p-4 lg:p-12">
                 <h1 className='text-3xl md:text-6xl font-bold'>
-                    Join the <span className='bg-blue-300 text-white px-2 py-1 rounded'>EarthGo</span> Community!
+                    Join the <span className='bg-blue-300 font-serif text-white px-2 py-1 rounded'>EarthGo</span> Community!
                 </h1>
-                <p className='font-light my-4 text-gray-700 text-lg md:text-xl'>
+                <p className='font-serif my-4 text-gray-700 text-lg md:text-xl'>
                     Connect with a vibrant community of travelers, share adventures, and explore the world together!
                 </p>
             </div>

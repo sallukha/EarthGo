@@ -35,7 +35,7 @@ const Earth = () => {
                     </p>
                 </div>
             </div>
-            <p className="mt-10 max-w-3xl text-center text-gray-700 px-4">
+            <p className="font-serif  mt-10 max-w-3xl text-center text-gray-700 px-4">
                 EarthGo connects passionate travel providers with a wide network of explorers across India. 
                 Whether you plan adventures or host them, we make it easier for you to grow — with zero upfront cost.
             </p>
