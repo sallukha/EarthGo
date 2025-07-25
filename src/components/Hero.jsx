@@ -28,7 +28,7 @@ const Hero = () => {
           <img
             src={trav2}
             alt="Traveler"
-            className="w-44 md:w-full rounded-lg shadow-lg"
+            className="w-44 md:w-full rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500"
           />
           <div className="grid grid-cols-2 gap-4">
             {manImages.map((img, index) => (

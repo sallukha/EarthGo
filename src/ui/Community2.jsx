@@ -14,7 +14,7 @@ const Community2 = () => {
                     Connect with a vibrant community of travelers, share adventures, and explore the world together!
                 </p>
             </div>
-            <div className="relative grid grid-cols-2 gap-4 lg:gap-8">
+            <div className="relative grid grid-cols-2 gap-4 lg:gap-8 ">
                 <img
                     src={man7}
                     alt="Traveler 1"

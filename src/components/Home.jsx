@@ -6,7 +6,7 @@ const Home = () => {
       <div className="flex pt-12 md:flex-row justify-center items-center p-6 md:p-12 lg:p-16 gap-3 md:gap-5">
         
         <div className="w-32 md:w-48 lg:w-64">
-          <img src={Fog} alt="Fog" className="w-full" />
+          <img src={Fog} alt="Fog" className="w-full transform hover:scale-105 transition-transform duration-500" />
         </div>
  
         <div className="flex items-start text-center md:text-left">

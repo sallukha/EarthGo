@@ -29,7 +29,7 @@ const PlacesFetch = () => {
                         <img
                             src={item.image}
                             alt={item.place}
-                            className="w-full h-60 object-cover rounded-t-xl"
+                            className="w-full h-60 object-cover rounded-t-xl transform hover:scale-105 transition-transform duration-500"
                         />
                         <div className="p-4 bg-white">
                             <h1 className="text-lg md:text-xl font-semibold">{item.place}</h1>
