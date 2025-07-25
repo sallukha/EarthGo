@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <>
       <div className="flex justify-center items-center">
-        <img src={trav} alt="" />
+        <img src={trav} alt=""  />
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-28">
         <div className="text-center md:text-left space-y-3 mt-5">
@@ -28,7 +28,7 @@ const Hero = () => {
           <img
             src={trav2}
             alt="Traveler"
-            className="w-44 md:w-full rounded-lg shadow-lg"
+            className="w-44 md:w-full rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500"
           />
           <div className="grid grid-cols-2 gap-4">
             {manImages.map((img, index) => (
